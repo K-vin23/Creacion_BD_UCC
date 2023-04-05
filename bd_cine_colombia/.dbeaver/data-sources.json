@@ -68,7 +68,6 @@
 				"configurationType": "MANUAL",
 				"home": "postgresql_client",
 				"type": "dev",
-				"provider-properties": {},
 				"auth-model": "native"
 			}
 		}
