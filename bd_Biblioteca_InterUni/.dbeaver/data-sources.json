@@ -1,0 +1,87 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-1882246bfc4-26638ae016d3b388": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "localhost xe/SYSTEM",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "xe",
+				"url": "jdbc:oracle:thin:@//localhost:1521/xe",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"postgres-jdbc-1882246cd8a-5c66a9bf190822a2": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "pg Postgres/POSTGRES",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-188224d298d-48f4ba27b3a62725": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "pg Postgres/BIBLIO",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "biblioteca",
+				"url": "jdbc:postgresql://localhost:5432/biblioteca",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {},
+				"auth-model": "native"
+			}
+		},
+		"oracle_thin-188224f27e0-634d5902b6d73e58": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "localhost xe/BIBLIO",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "xe",
+				"url": "jdbc:oracle:thin:@//localhost:1521/xe",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
